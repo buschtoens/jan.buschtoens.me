@@ -90,6 +90,11 @@
     "typescript": "^4.5.5",
     "webpack": "^5.68.0"
   },
+  "pnpm": {
+    "overrides": {
+      "@types/eslint": "^8.4.1"
+    }
+  },
   "engines": {
     "node": "12.* || 14.* || >= 16"
   },
