@@ -4,9 +4,9 @@ specifiers:
   '@clark/prettier-config': ^2.2.0
   '@ember/optional-features': ^2.0.0
   '@ember/test-helpers': ^2.6.0
-  '@embroider/compat': ^1.0.0
-  '@embroider/core': ^1.0.0
-  '@embroider/webpack': ^1.0.0
+  '@embroider/compat': ^1.2.0
+  '@embroider/core': ^1.2.0
+  '@embroider/webpack': ^1.2.0
   '@glimmer/component': ^1.0.4
   '@glimmer/tracking': ^1.0.4
   '@nullvoxpopuli/eslint-configs': ^2.1.21
@@ -39,7 +39,7 @@ specifiers:
   '@types/qunit': ^2.11.3
   '@types/rsvp': ^4.0.4
   broccoli-asset-rev: ^3.0.0
-  ember-auto-import: ^2.2.4
+  ember-auto-import: ^2.4.0
   ember-cli: ~4.1.1
   ember-cli-app-version: ^5.0.0
   ember-cli-babel: ^7.26.11
@@ -66,7 +66,7 @@ specifiers:
   qunit: ^2.17.2
   qunit-dom: ^2.0.0
   typescript: ^4.5.5
-  webpack: ^5.65.0
+  webpack: ^5.68.0
 
 devDependencies:
   '@clark/prettier-config': 2.2.0
@@ -240,7 +240,7 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/compat-data': 7.17.0
-      '@babel/core': 7.17.2
+      '@babel/core': 7.17.2_supports-color@8.1.1
       '@babel/helper-validator-option': 7.16.7
       browserslist: 4.19.1
       semver: 6.3.0
@@ -11462,7 +11462,7 @@ packages:
   /regenerator-transform/0.14.5:
     resolution: {integrity: sha512-eOf6vka5IO151Jfsw2NO9WpGX58W6wWmefK3I1zEGr0lOD0u8rwPaNqQL1aRxUaxLeKO3ArNh3VYg1KbaD+FFw==}
     dependencies:
-      '@babel/runtime': 7.12.18
+      '@babel/runtime': 7.17.2
     dev: true
 
   /regex-not/1.0.2:
@@ -13521,7 +13521,7 @@ packages:
   /wide-align/1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 4.2.3
+      string-width: 1.0.2
     dev: true
 
   /word-wrap/1.2.3:
